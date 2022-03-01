@@ -1,0 +1,168 @@
+
+
+
+
+
+
+
+
+
+
+
+
+*** Software Testing 
+
+  --Static Testing
+    Requirement gathering & Designer , STEPS = review , walk-through , inspection
+
+  --Dynamic Testing
+    Developers & Testers , STEPS = White , Black , Grey box testing
+
+      -- Testing levels 
+         1. Unit Testing  =  Testing small units / individual modules of the app from the code perspective , Who: Developers , Env: Dev env 
+
+         2. Integration Testing = Testing 2 or more modules of the application and see if they work together or not , Who: Dev (in some companies SDET can do too) , Env: Dev env
+
+         3. System Testing = Test the software as whole project , Who: SDET/QA / Performance testers , Env: in the QA/ Test env
+                     --Functional testing = Who: SDET/QA , Env: in the QA/ Test env
+
+                     --Non-Functional testing = Who:  Performance testers , Env: in the QA/ Test env
+
+         4. User Acceptance Testing (UAT)= last stage of app , Env: staging / Pre-production env 	
+                     -- UAT - Alpha testing = QA testers
+                     -- UAT - Beta testing = Client testers
+ 
+
+
+*** WATERFALL VS AGILE
+
+    -- Waterfall
+       1. the first method found in WW2(1940), 
+       
+       2. easy to understand
+       3. takes SDLC step's one by one
+       4. no going back in the project , every step depend's on previous one's outcome
+   
+
+         -- ADVANTAGES : 1. easy to understand
+                         2. start and end point known easy to measure
+                         3. stability of model's
+                         4. careful planning less problem's appear's
+                         5. quality and detailed document's
+ 
+         -- DISADVANTAGES : 1. poor result's for long and large project
+                            2. if requirement's are not clear makes big mess
+                            3. little change's in project cost a lot because no turning back
+
+
+    -- Agile
+       1. Started in (2000)
+       2. speed up the process to bring new software to market
+       3. involve everyone , better communication
+ 
+           -- Agile Manifesto / Advise : 1. Trust and interact with co-worker's
+                                         2. focus on software rather than finishing document
+                                         3. involve the client more 
+                                         4. accept change's instead of fully focus to a plan
+
+           -- Agile principles / rules : 1. Satisfy the customer
+                                         2. accept changes
+                                         3. continuously delivery of software
+                                         4. collaboration with all stakeholder's in whole part of the project
+                                         5. trust and support
+                                         6. face to face conversation
+                                         7. working on software defines the progress
+                                         8. maintain constant pace
+                                         9. good ideas & improvements 
+                                         10. simplicty
+                                         11. self-organizing
+                                         12. revisit       
+   
+
+
+*** AGILE FRAMEWORK
+     Scrum , kanban , crystal , xp , lean 
+
+     1. most famous and used one is scrum still almost all companies using it 
+
+         -- based on team work and learning from mistakes
+         -- who is gonna do what and what is the problem dicusses as team
+   
+     3 ROLES  : PO - Development Team - Scrum master 
+
+     3 ARTIFACTS : Product backlog - Sprint Backlog - Product Increment
+
+     5 MEETINGS : Grooming - Sprint Planning - Daily Stand Up - Demo - Retro
+
+            
+     -- Sprint = 1 week to 4 weeks 
+     -- in agile requirements called " User Story " PO writes the stories 
+     -- in GIRA product backlog hold's / list of user stories // managed by PO 
+     -- EPIC mean big user story divide's by PO to small stories 
+     -- AC acceptance criteria written by PO  
+
+
+
+*** GROOMING / BACKLOG GROOMING / BACKLOG REFINEMENT
+    Story Point uses to divide point of software easy to understand
+  
+    they estimate by size's , s,m , l 1 to 7 days 8,13,15 epic big 
+    devs and Qa 's meet's and gives estimated time and po ask the high number reason and decide's a time 
+
+
+*** SPRINT PLANNING MEETING 
+    who? = the dev team
+    time? = Sprint start date , end date
+    what task? = which exat user stories to complete
+    goal? = complete the US that the dev team selected , demonstrate the PO and the client in the demo meeting
+
+    1. SM creates a sprint backlog 
+    2. SM helps the team to calculate - team capacity
+        -- team capacity = dev team -> dev & qa total work avaliablity in a sprint
+    3. the PO takes the user stories from the backlog to the sprint backlog
+        -- DOR : Definiton Of Ready 
+           DOR -> list of condition's that the scrum team created means possible to complete in sprint time
+    
+
+     --- Impediment : things making the process slow like bugs and uncomplited works, less knowledge , luck of information technical issues 
+
+*** DEMO (Sprint review)& RETRO MEETING
+
+  ** Demo Meeting 
+    the dev show's completed work to PO and client, steakholder's
+    each team show's the product increment ("DONE" us known as pi)
+
+    -- PO -> host's the meeting accept / reject the US 
+    -- SM ends the sprint after demo meeting
+    -- any noncomplited US it will move back to product backlog and team work on it in the next sprint
+    
+    -- each scrum team create list of check list / condition's for defining if the US done or not --> DOD ( Denifiniton of done )
+
+    --- DOD how to know :  1. testing has completed 
+                       2. automation testing completed
+		       3. bugs fixed 
+		       4. all test result documented
+ 		       5. showed / demoed to client and got accepted ( signed off )
+
+
+  **Retro Meeting 
+    retro meetings are for create improvement opportunities
+    -- SM host's the meeting
+    
+    yellow paper > what went well , green paper > could be done better ? , red paper > what was wrong 
+ 
+    eveyone answer's verbaly and SM takes notes 
+   
+
+ 
+
+
+
+
+
+
+
+
+
+
+
