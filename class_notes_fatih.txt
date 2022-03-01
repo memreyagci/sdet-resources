@@ -1,15 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
 *** Software Testing 
 
   --Static Testing
@@ -151,18 +139,4 @@
     
     yellow paper > what went well , green paper > could be done better ? , red paper > what was wrong 
  
-    eveyone answer's verbaly and SM takes notes 
-   
-
- 
-
-
-
-
-
-
-
-
-
-
-
+    eveyone answer's verbaly and SM takes notes
