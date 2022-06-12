@@ -13,7 +13,9 @@
 
 
 ## Selenium
+
 * [Automation Practices - azurewebsites.net](https://itera-qa.azurewebsites.net/home/practice)
+* [Xpath cheatsheet - devhints.io](https://devhints.io/xpath)
 
 
 ## Git
