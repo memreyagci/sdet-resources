@@ -1,5 +1,9 @@
 # Resources
 
+## General
+
+* [Documents from alumni meetings](alumni_meeting_dox)
+
 ## Java
 
 * [hyperskill.org - A coding website by JetBrains to study Java by solving example questions.](https://hyperskill.org)
