@@ -1,0 +1,57 @@
+EU8_Jira_Practice Before Project Study:
+
+
+***Some Keypoints of Working On JIRA: (WHILE DOING "MANUAL TESTING")
+
+	1-Always remember, there are always "developers" as our team mates in the Scrum Team
+	2-We will work with them on the same JIRA board but using different columns
+	3-After they developed and deployed the US to our QA Environment 
+	4-You will be assigned a US to test and it already includes some ACs created by PO
+
+===> Our active job starts in here;
+
+	5-We and even the developers will have "only some screenshots" related to the USs
+	6-These screenshots are created by the designers "in the second phase of SDLC" (Desinging phase)
+	7-There will be no ready application in front of us in the real work environment.
+
+	8-For that reason, "first of all, you should analyse your US (feature or functionality) carefully"
+	9-By putting yourself in the end-users, you should create "your scenarios" including the 
+	  "positive and negative" ones covering all the possibilities to verify the functionality properly
+
+	  		REMEMBER => !!! YOU WILL BE FINDING MOST OF THE BUGS WHİLE DOİNG "NEGATİVE TESTING" !!!
+
+	10-Based on your scenarios you will start to write your Test Cases
+
+	  
+	***TestCase Creation in JIRA: 
+
+	  							*Easy and simple to understand
+	  							*Adjustable to any test data related to the same functionality
+	  							*Strictly based on the Requirements of the application
+
+	  !!!Syntax and Text part:!!!
+
+	  		1-Actions => ***Each small action that we take on UI to reach our verification point 
+	  					 will correspond to our one seperate step  
+
+	  		   *Use "directive statement" in general for each test step action part
+	  		  But just for the Last Step, since it will be your verifying point for the functionality;
+	  		   *Use "Verify that user can ..." structure
+
+	  		2-Expected Result => Use "User should be able to see/click/add ...."
+                                  "System should be able to display the message ...."
+
+         3-Test Data: => Please carefully determine "which data will be your test data"
+                                                      "in which specific test step"
+
+            	For instance: 
+            	         1-If you test navigate a page directly => url  
+            	         2-If you login and fill out the related input boxes => username and password
+            	         3-If you create/delete/remove/add any file to favorite => the file name
+
+            	         			will be your TEST DATA...
+
+      !!! Linking Issues are really important for the JIRA TİCKETS !!!
+
+
+		!!! You will create only one Test Execution Ticket for each User Story
