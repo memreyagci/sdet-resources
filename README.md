@@ -2,7 +2,8 @@
 
 ## General
 
-* [Documents from alumni meetings](alumni_meeting_dox)
+* [Documents from alumni meetings](alumni_meeting_docs)
+* [Documents from the mentor](mentor_docs)
 
 ## Java
 
