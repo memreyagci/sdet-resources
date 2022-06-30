@@ -26,3 +26,7 @@
 ## Git
 * [git cheatsheet - gitsheet.wtf](https://gitsheet.wtf/)
 * [git the simple guide - rogerdudler.github.io](https://rogerdudler.github.io/git-guide/)
+
+
+## SQL
+* [Solve SQL - HackerRank](https://www.hackerrank.com/domains/sql)
